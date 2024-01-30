@@ -117,14 +117,7 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
-    window.onload = function () {
-      setTimeout(function () {
-        var loadingIndicator = document.getElementById("loading_indicator");
-        if (loadingIndicator) {
-          loadingIndicator.remove();
-        }
-      }, 10000);
-    };
+    
   </script>
 </body>
 </html>
